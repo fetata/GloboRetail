@@ -1,0 +1,14 @@
+aws_conn_id: aws_conn_id
+
+
+s3:
+  bucket: softuni-exam-etl
+  folder: raw_data
+  output_folder: clean
+  analytics: analytics
+
+snowflake:
+  database: RETAIL_DB
+  cleansed_schema: CLEANSED
+  star_schema: STAR
+  presentation_schema: PRESENTATION

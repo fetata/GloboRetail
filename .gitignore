@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+.DS_Store
+
+# IDE
+.idea/
+
+# Airflow local files
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+webserver_config.py
+
+# Astronomer
+.astro/
+
